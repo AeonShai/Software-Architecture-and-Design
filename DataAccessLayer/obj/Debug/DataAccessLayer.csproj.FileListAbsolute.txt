@@ -1,0 +1,17 @@
+C:\Users\Beara\Desktop\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Beara\Desktop\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Beara\Desktop\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Beara\Desktop\DataAccessLayer\bin\Debug\EntitiesLayer.dll
+C:\Users\Beara\Desktop\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Beara\Desktop\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Beara\Desktop\DataAccessLayer\bin\Debug\EntitiesLayer.pdb
+C:\Users\Beara\Desktop\DataAccessLayer\bin\Debug\EntitiesLayer.dll.config
+C:\Users\Beara\Desktop\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Beara\Desktop\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Beara\Desktop\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Beara\Desktop\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Beara\Desktop\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\Beara\Desktop\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Beara\Desktop\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Beara\Desktop\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.peppi2024.resources
+C:\Users\Beara\Desktop\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache

@@ -1,0 +1,75 @@
+﻿@model List<EntitiesLayer.Entities.Category>
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <table class="table table-bordered">
+        <a class="btn btn-primary" href="/AdminCategory/Create">Kategori Ekle</a>
+        <br />
+        <br />
+        <th>Ad</th>
+        <th>Açıklama</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Description</td>
+                <td><a class="btn btn-danger btnSil" style="color:white" data-id="@item.Id">Sil</a></td>
+                <td><a class="btn btn-primary" href="/AdminCategory/Update/@item.Id">Güncelle</a></td>
+            </tr>
+        }
+    </table>
+
+    <!-- Bootbox.js ve jQuery kütüphanelerini dahil ediyoruz -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.btnSil').click(function () {
+                var categoryId = $(this).data('id');
+                bootbox.confirm({
+                    message: "Bu kategoriyi silmek istediğinizden emin misiniz?",
+                    buttons: {
+                        confirm: {
+                            label: 'Evet',
+                            className: 'btn-danger'
+                        },
+                        cancel: {
+                            label: 'Hayır',
+                            className: 'btn-secondary'
+                        }
+                    },
+                    callback: function (result) {
+                        if (result) {
+                            $.ajax({
+                                url: '/AdminCategory/Delete/' + categoryId,
+                                type: 'POST',
+                                success: function (response) {
+                                    // Başarılı olursa sayfayı yeniden yükle
+                                    location.reload();
+                                },
+                                error: function (xhr, status, error) {
+                                    // Hata mesajını göster
+                                    bootbox.alert("Silme işlemi sırasında bir hata oluştu.");
+                                }
+                            });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

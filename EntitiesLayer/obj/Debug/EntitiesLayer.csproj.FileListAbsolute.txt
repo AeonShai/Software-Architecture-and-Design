@@ -1,0 +1,12 @@
+C:\Users\Beara\Desktop\EntitiesLayer\bin\Debug\EntitiesLayer.dll.config
+C:\Users\Beara\Desktop\EntitiesLayer\bin\Debug\EntitiesLayer.dll
+C:\Users\Beara\Desktop\EntitiesLayer\bin\Debug\EntitiesLayer.pdb
+C:\Users\Beara\Desktop\EntitiesLayer\bin\Debug\EntityFramework.dll
+C:\Users\Beara\Desktop\EntitiesLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Beara\Desktop\EntitiesLayer\bin\Debug\EntityFramework.xml
+C:\Users\Beara\Desktop\EntitiesLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Beara\Desktop\EntitiesLayer\obj\Debug\EntitiesLayer.csproj.AssemblyReference.cache
+C:\Users\Beara\Desktop\EntitiesLayer\obj\Debug\EntitiesLayer.csproj.CoreCompileInputs.cache
+C:\Users\Beara\Desktop\EntitiesLayer\obj\Debug\EntitiesLayer.csproj.CopyComplete
+C:\Users\Beara\Desktop\EntitiesLayer\obj\Debug\EntitiesLayer.dll
+C:\Users\Beara\Desktop\EntitiesLayer\obj\Debug\EntitiesLayer.pdb
